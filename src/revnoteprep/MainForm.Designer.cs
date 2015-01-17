@@ -128,15 +128,15 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.outputFileTextBox.Location = new System.Drawing.Point(179, 190);
             this.outputFileTextBox.Name = "outputFileTextBox";
-            this.outputFileTextBox.Size = new System.Drawing.Size(416, 26);
+            this.outputFileTextBox.Size = new System.Drawing.Size(379, 26);
             this.outputFileTextBox.TabIndex = 9;
             // 
             // browseButton
             // 
             this.browseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.browseButton.Location = new System.Drawing.Point(610, 192);
+            this.browseButton.Location = new System.Drawing.Point(564, 190);
             this.browseButton.Name = "browseButton";
-            this.browseButton.Size = new System.Drawing.Size(75, 23);
+            this.browseButton.Size = new System.Drawing.Size(120, 26);
             this.browseButton.TabIndex = 10;
             this.browseButton.Text = "&Browse...";
             this.browseButton.UseVisualStyleBackColor = true;
@@ -144,11 +144,11 @@
             // 
             // generateButton
             // 
-            this.generateButton.Location = new System.Drawing.Point(323, 273);
+            this.generateButton.Location = new System.Drawing.Point(310, 273);
             this.generateButton.Name = "generateButton";
-            this.generateButton.Size = new System.Drawing.Size(75, 23);
+            this.generateButton.Size = new System.Drawing.Size(120, 26);
             this.generateButton.TabIndex = 11;
-            this.generateButton.Text = "Generate";
+            this.generateButton.Text = "&Generate";
             this.generateButton.UseVisualStyleBackColor = true;
             this.generateButton.Click += new System.EventHandler(this.generateButton_Click);
             // 
@@ -156,7 +156,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(697, 377);
+            this.ClientSize = new System.Drawing.Size(697, 338);
             this.Controls.Add(this.generateButton);
             this.Controls.Add(this.browseButton);
             this.Controls.Add(this.outputFileTextBox);
