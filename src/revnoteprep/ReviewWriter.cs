@@ -36,13 +36,19 @@ namespace ReviewNotesPreparationTool
         {
             writer.WriteLine("# API Review {0}-{1:00}-{2:00}", DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day);
             writer.WriteLine();
+            writer.WriteLine("This API review was also recorded and is available on [Channel 9](http://channel9.msdn.com/Series/NET-Framework/NET-Core-API-Review-{0}-{1:00}-{2:00}).", DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day);
+            writer.WriteLine();
 
             writer.WriteLine("## Overview");
+            writer.WriteLine();
+            writer.WriteLine("In this API review we reviewed the following PRs and proposals:");
             writer.WriteLine();
 
             foreach (var issue in issues)
                 writer.WriteLine("* [Notes](#{0}) | [#{1}]({2}) {3}", GetAnchor(issue),  issue.Number, issue.HtmlUrl, GetEscapedTitle(issue));
 
+            writer.WriteLine();
+            writer.WriteLine("There are also some [follow-ups for the API review board](#follow-ups-for-api-review-board).");
             writer.WriteLine();
             writer.WriteLine("## Notes");
 
@@ -60,6 +66,11 @@ namespace ReviewNotesPreparationTool
                 writer.WriteLine();
                 writer.WriteLine("* Notes");
             }
+
+            writer.WriteLine();
+            writer.WriteLine("### Follow-ups for API review board");
+            writer.WriteLine();
+            writer.WriteLine("* Notes");
         }
 
         private static string GetEscapedTitle(Issue issue)
