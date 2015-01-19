@@ -46,44 +46,44 @@
             // 
             this.organizationTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.organizationTextBox.Location = new System.Drawing.Point(167, 35);
+            this.organizationTextBox.Location = new System.Drawing.Point(135, 19);
             this.organizationTextBox.Name = "organizationTextBox";
-            this.organizationTextBox.Size = new System.Drawing.Size(482, 26);
+            this.organizationTextBox.Size = new System.Drawing.Size(419, 20);
             this.organizationTextBox.TabIndex = 2;
             // 
             // repositoryTextBox
             // 
             this.repositoryTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.repositoryTextBox.Location = new System.Drawing.Point(167, 67);
+            this.repositoryTextBox.Location = new System.Drawing.Point(135, 45);
             this.repositoryTextBox.Name = "repositoryTextBox";
-            this.repositoryTextBox.Size = new System.Drawing.Size(482, 26);
+            this.repositoryTextBox.Size = new System.Drawing.Size(419, 20);
             this.repositoryTextBox.TabIndex = 3;
             // 
             // labelTextBox
             // 
             this.labelTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.labelTextBox.Location = new System.Drawing.Point(167, 99);
+            this.labelTextBox.Location = new System.Drawing.Point(135, 71);
             this.labelTextBox.Name = "labelTextBox";
-            this.labelTextBox.Size = new System.Drawing.Size(482, 26);
+            this.labelTextBox.Size = new System.Drawing.Size(419, 20);
             this.labelTextBox.TabIndex = 4;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 38);
+            this.label1.Location = new System.Drawing.Point(6, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(103, 20);
+            this.label1.Size = new System.Drawing.Size(69, 13);
             this.label1.TabIndex = 5;
             this.label1.Text = "&Organization:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(23, 70);
+            this.label2.Location = new System.Drawing.Point(6, 48);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 20);
+            this.label2.Size = new System.Drawing.Size(60, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "&Repository:";
             // 
@@ -99,26 +99,26 @@
             this.groupBox1.Controls.Add(this.labelTextBox);
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(673, 148);
+            this.groupBox1.Size = new System.Drawing.Size(560, 104);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "&GitHub Settings:";
+            this.groupBox1.Text = "Git&Hub Settings:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(23, 102);
+            this.label3.Location = new System.Drawing.Point(6, 74);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 20);
+            this.label3.Size = new System.Drawing.Size(36, 13);
             this.label3.TabIndex = 7;
             this.label3.Text = "&Label:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(35, 193);
+            this.label4.Location = new System.Drawing.Point(18, 131);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(87, 20);
+            this.label4.Size = new System.Drawing.Size(58, 13);
             this.label4.TabIndex = 8;
             this.label4.Text = "Output &File";
             // 
@@ -126,17 +126,17 @@
             // 
             this.outputFileTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.outputFileTextBox.Location = new System.Drawing.Point(179, 190);
+            this.outputFileTextBox.Location = new System.Drawing.Point(147, 128);
             this.outputFileTextBox.Name = "outputFileTextBox";
-            this.outputFileTextBox.Size = new System.Drawing.Size(379, 26);
+            this.outputFileTextBox.Size = new System.Drawing.Size(344, 20);
             this.outputFileTextBox.TabIndex = 9;
             // 
             // browseButton
             // 
             this.browseButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.browseButton.Location = new System.Drawing.Point(564, 190);
+            this.browseButton.Location = new System.Drawing.Point(497, 126);
             this.browseButton.Name = "browseButton";
-            this.browseButton.Size = new System.Drawing.Size(120, 26);
+            this.browseButton.Size = new System.Drawing.Size(75, 23);
             this.browseButton.TabIndex = 10;
             this.browseButton.Text = "&Browse...";
             this.browseButton.UseVisualStyleBackColor = true;
@@ -144,9 +144,9 @@
             // 
             // generateButton
             // 
-            this.generateButton.Location = new System.Drawing.Point(310, 273);
+            this.generateButton.Location = new System.Drawing.Point(260, 167);
             this.generateButton.Name = "generateButton";
-            this.generateButton.Size = new System.Drawing.Size(120, 26);
+            this.generateButton.Size = new System.Drawing.Size(75, 23);
             this.generateButton.TabIndex = 11;
             this.generateButton.Text = "&Generate";
             this.generateButton.UseVisualStyleBackColor = true;
@@ -154,9 +154,9 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(697, 338);
+            this.ClientSize = new System.Drawing.Size(584, 211);
             this.Controls.Add(this.generateButton);
             this.Controls.Add(this.browseButton);
             this.Controls.Add(this.outputFileTextBox);

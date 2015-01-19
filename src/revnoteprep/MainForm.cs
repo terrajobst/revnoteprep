@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 
@@ -7,11 +8,13 @@ using ReviewNotesPreparationTool.Properties;
 
 namespace ReviewNotesPreparationTool
 {
-    public partial class MainForm : Form
+    internal sealed partial class MainForm : Form
     {
         public MainForm()
         {
             InitializeComponent();
+
+            Font = SystemFonts.MessageBoxFont;
 
             var settings = GetDefaultSettings();
             SetSettings(settings);
