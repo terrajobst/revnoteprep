@@ -36,7 +36,7 @@ namespace ReviewNotesPreparationTool
         {
             writer.WriteLine("# API Review {0}-{1:00}-{2:00}", DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day);
             writer.WriteLine();
-            writer.WriteLine("This API review was also recorded and is available on [Channel 9](http://channel9.msdn.com/Series/NET-Framework/NET-Core-API-Review-{0}-{1:00}-{2:00}).", DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day);
+            writer.WriteLine("This API review was also recorded and is available on [Channel 9](http://channel9.msdn.com/Blogs/dotnet/NET-Core-API-Review-{0}-{1:00}-{2:00}).", DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day);
             writer.WriteLine();
 
             writer.WriteLine("## Overview");
@@ -61,7 +61,7 @@ namespace ReviewNotesPreparationTool
                 writer.WriteLine("[Issue]({0}) |", issue.HtmlUrl);
                 if (issue.PullRequest != null)
                     writer.WriteLine("[API Reference](issue-#{0}.md) |", issue.Number);
-                writer.WriteLine("[Video](http://channel9.msdn.com/Series/NET-Framework/NET-Core-API-Review-{0}-{1:00}-{2:00}#time=0h0m0s)",
+                writer.WriteLine("[Video](http://channel9.msdn.com/Blogs/dotnet/NET-Core-API-Review-{0}-{1:00}-{2:00}#time=0h0m0s)",
                     DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day);
                 writer.WriteLine();
                 writer.WriteLine("* Notes");
