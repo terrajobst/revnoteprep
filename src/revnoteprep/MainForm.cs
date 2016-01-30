@@ -61,7 +61,7 @@ namespace ReviewNotesPreparationTool
             var settings = new ReviewSettings();
             settings.Organization = @"dotnet";
             settings.Repository = @"corefx";
-            settings.Label = @"ready for api review";
+            settings.Label = @"api-ready-for-review";
             settings.OutputFileName = path;
             return settings;
         }
